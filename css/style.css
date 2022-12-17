@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); /* font-family: 'Patrick Hand', Serif; */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); /* font-family: 'Amatic SC', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /* font-family: 'Courgette', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----HEAD-----*/
+
+header > h1 {
+    font-family: 'Patrick Hand', Serif;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 4px 1px #00000091;
+    font-weight: normal;
+}
+
+/*-----BODDY-----*/
+
+body {
+    background-image: url(../backgrounds/background01.jpg);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#resultado {
+    background-image: url(../backgrounds/fundoRoxo.jpg);
+    border: 1px solid black;
+    max-height: 80px;
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-family: 'Amatic SC', serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgb(255 153 0 / 53%);
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+strong {
+    background-color: rgb(255 247 247 / 62%);
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    font-family: 'Courgette', serif;
+    font-size: 2em;
+    color: #ff7639;
+    text-shadow: 2px 3px 2px rgb(0 0 0 / 54%);
+}
+
+#p1 {
+    text-align: center;
+}
+
